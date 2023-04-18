@@ -18,4 +18,7 @@ There are two steps in the hyperparameter optimisation process. The first is a g
 Bayesian Optimisation is then used to optimise the min_impurity_decrease.
 
 ## RESULTS
+The final tree got a score of 73.99% on the validation data. It found that the month and the global radiation were the two most important variables in determining the mean temperature.
 
+This is the resulting tree:
+![tree](https://user-images.githubusercontent.com/131019698/232862360-fb8649bb-7e17-4b21-9e8a-73545fe3fa2b.png)
