@@ -4,6 +4,9 @@ This project is to use a Regression Tree to predict the mean temperature on a gi
 ## DATA
 The data used in this project is 'london_weather.csv' from https://www.kaggle.com/datasets/emmanuelfwerr/london-weather-data?resource=download, which in turn was sourced from https://www.ecad.eu/dailydata/index.php
 
+We acknowledge the data providers in the ECA&D project. Klein Tank, A.M.G. and Coauthors, 2002. Daily dataset of 20th-century surface air temperature and precipitation series for the European Climate Assessment. Int. J. of Climatol., 22, 1441-1453.
+Data and metadata available at https://www.ecad.eu
+
 ## MODEL 
 The model is a Regression Tree. This was chosen as the aim was to produce not only a model with accurate results, but also a model that could be easily interpreted and understood. The use of a Regression Tree allows easy insight into how the model is making its predictions and which variables it believes are the most important in estimating the temperature.
 
